@@ -1,0 +1,17 @@
+.row{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+app-grid{
+    width: 45%;
+    margin: 1%;
+}
+app-handson{
+    width: 45%;
+    margin: 1%;
+}
