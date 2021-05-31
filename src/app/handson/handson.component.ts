@@ -11,9 +11,7 @@ export class HandsonComponent implements OnInit {
 
    dataset:any;
    tableSettings={
-     //rowHeaders:true,
      viewportColumnRenderingOffset: 100,
-     //height: 450,
      width: 924,
      maxRows: 50,
      manualRowResize: true,
@@ -53,9 +51,6 @@ export class HandsonComponent implements OnInit {
       if(value == false){
         	console.log( value, row, prop)    
           alert("Invalid")
-          //Value = isValid
-          // row = inserted invalid value
-          //prop = row index changed
       }
 			
     }
